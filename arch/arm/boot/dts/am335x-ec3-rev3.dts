@@ -276,15 +276,15 @@
 
 			0x164	(PIN_INPUT_PULLUP | MUX_MODE7)	/* ecap0_in_pwm0_out.gpio0_7	input by default */
 
-			0x178	(PIN_INPUT_PULLUP | MUX_MODE7)	/* uart1_ctsn.gpio0_12				(i2c2_sda, dcan0_tx) */
-			0x17c	(PIN_INPUT_PULLUP | MUX_MODE7)	/* uart1_rtsn.gp100_13				(i2c2_scl, dcan0_rx) */
+			0x178	(PIN_INPUT_PULLUP | MUX_MODE7)	/* uart1_ctsn.gpio0_12			(i2c2_sda, dcan0_tx) */
+			0x17c	(PIN_INPUT_PULLUP | MUX_MODE7)	/* uart1_rtsn.gp100_13			(i2c2_scl, dcan0_rx) */
 
-			0x190	(PIN_INPUT_PULLUP | MUX_MODE7)	/* mcasp0_aclkx.gpio3_14			(mcasp0_aclkx) */
-			0x194	(PIN_INPUT_PULLUP | MUX_MODE7)	/* mcasp0_fsx.gpio3_15				(mcasp0_fsx) */
-			0x198	(PIN_INPUT_PULLUP | MUX_MODE7)	/* mcasp0_axr0.gpio3_16				(mcasp0_axr0) */
-			0x19c	(PIN_INPUT_PULLUP | MUX_MODE7)	/* mcasp0_ahclkr.gpio3_17			(mcasp0_ahclkr) */
-			0x1a0	(PIN_INPUT_PULLUP | MUX_MODE7)	/* mcasp0_aclkr.gpio3_18			(mcasp0_aclkr) */
-			0x1a4	(PIN_INPUT_PULLUP | MUX_MODE7)	/* mcasp0_fsr.gpio3_19				(mcasp0_fsr) */
+			0x190	(PIN_INPUT_PULLUP | MUX_MODE7)	/* mcasp0_aclkx.gpio3_14		(mcasp0_aclkx) */
+			0x194	(PIN_INPUT_PULLUP | MUX_MODE7)	/* mcasp0_fsx.gpio3_15			(mcasp0_fsx) */
+			0x198	(PIN_INPUT_PULLUP | MUX_MODE7)	/* mcasp0_axr0.gpio3_16			(mcasp0_axr0) */
+			0x19c	(PIN_INPUT_PULLUP | MUX_MODE7)	/* mcasp0_ahclkr.gpio3_17		(mcasp0_ahclkr) */
+			0x1a0	(PIN_INPUT_PULLUP | MUX_MODE7)	/* mcasp0_aclkr.gpio3_18		(mcasp0_aclkr) */
+			0x1a4	(PIN_INPUT_PULLUP | MUX_MODE7)	/* mcasp0_fsr.gpio3_19			(mcasp0_fsr) */
 			//0x1a8	(PIN_INPUT_PULLUP | MUX_MODE7)	/* mcasp0_axr1.gpio3_20			(mcasp0_axr1) */
 
 			0x1ac	(PIN_INPUT_PULLUP | MUX_MODE7)	/* mcasp0_ahclkx.gpio3_21			input by default */
