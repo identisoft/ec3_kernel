@@ -461,6 +461,9 @@ dtb-$(CONFIG_SOC_AM33XX) += \
 	am335x-bonegreen.dtb \
 	am335x-sl50.dtb \
 	am335x-evm.dtb \
+	am335x-ec3-rev2.dtb \
+	am335x-ec3-rev3.dtb \
+	am335x-ec3-rev3-usbdisplay.dtb \
 	am335x-evmsk.dtb \
 	am335x-nano.dtb \
 	am335x-pepper.dtb \
