@@ -53,12 +53,16 @@
 			 */
 			operating-points = <
 				/* kHz    uV */
+				1000000 1351000
+				800000  1285000
 				720000  1285000
 				600000  1225000
 				500000  1125000
 				275000  1125000
 			>;
 			voltage-tolerance = <2>; /* 2 percentage */
+
+			platform-opp-modifier = <&mpu_opp_modifier>;
 
 			clocks = <&dpll_mpu_ck>;
 			clock-names = "cpu";
