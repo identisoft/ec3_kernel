@@ -559,6 +559,6 @@
 
 &lcdc {
 	status = "okay";
-	blue-and-red-wiring = "straight";
+/*	blue-and-red-wiring = "crossed"; */
 };
 
