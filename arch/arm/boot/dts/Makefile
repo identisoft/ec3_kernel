@@ -624,6 +624,7 @@ dtb-$(CONFIG_SOC_AM33XX) += \
 	am335x-evm.dtb \
 	am335x-ec3-rev2.dtb \
 	am335x-ec3-rev3.dtb \
+	am335x-ec3-rev3-9MHz.dtb \
 	am335x-ec3-rev3-usbdisplay.dtb \
 	am335x-evmsk.dtb \
 	am335x-icev2.dtb \
