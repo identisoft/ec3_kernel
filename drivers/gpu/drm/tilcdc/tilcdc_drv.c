@@ -347,7 +347,7 @@ static int tilcdc_init(struct drm_driver *ddrv, struct device *dev)
 			priv->pixelformats = tilcdc_legacy_formats;
 			priv->num_pixelformats =
 				ARRAY_SIZE(tilcdc_legacy_formats);
-			bpp = 16; /* This is just a guess */
+			bpp = 24; /* This is just a guess */ /* Changed this from 16 to 24 bpp for the am335x EABR display legacy mode - RM 2017-02-02 */
 		}
 	}
 
