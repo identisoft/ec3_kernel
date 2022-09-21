@@ -62,7 +62,7 @@
 		factorydefault {
 			gpios = <&gpio1 23 GPIO_ACTIVE_LOW>;
 			linux,code = <70>;
-			debounce-interval = <200>;
+			debounce-interval = <5>; // was 200
 		};
 	};
 
@@ -74,7 +74,7 @@
 		antitamper {
 			gpios = <&gpio0 29 GPIO_ACTIVE_HIGH>;
 			linux,code = <65>;
-			debounce-interval = <200>;
+			debounce-interval = <5>; // was 200
 		};
 	};
 
@@ -86,7 +86,7 @@
 		antitamper2 {
 			gpios = <&gpio1 29 GPIO_ACTIVE_HIGH>;
 			linux,code = <66>;
-			debounce-interval = <200>;
+			debounce-interval = <5>; // was 200
 		};
 	};
 
@@ -98,7 +98,7 @@
 		genInput {
 			gpios = <&gpio3 20 GPIO_ACTIVE_HIGH>;
 			linux,code = <73>;
-			debounce-interval = <200>;
+			debounce-interval = <5>; // was 200
 		};
 	};
 
@@ -191,7 +191,7 @@
 	pinctrl-names = "default";
 	pinctrl-0 = <&extcon_pins>;
 	// pinctrl-0 = <&gpio_pins>;
-	// status = "okay";
+	status = "okay";
 
 	user_leds_pin: pinmux_user_leds_pin {
 		pinctrl-single,pins = <
@@ -749,6 +749,7 @@
 	bus-width = <0x4>;
 	cd-gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>;
 	cd-inverted;
+	debounce-interval = <5>; // was not specified before
 	vmmc-supply = <&vmmcsd_fixed>;
 };
 
