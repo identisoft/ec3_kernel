@@ -679,6 +679,17 @@
 /include/ "tps65217.dtsi"
 
 &tps {
+
+	pmic {
+		compatible = "ti,tps65217-pmic";
+		status = "disabled";
+	};
+
+	bl {
+		compatible = "ti,tps65217-bl";
+		status = "disabled";
+	};
+
 	regulators {
 		dcdc1_reg: regulator@0 {
 			regulator-always-on;
