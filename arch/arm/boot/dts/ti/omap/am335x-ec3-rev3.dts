@@ -534,7 +534,7 @@
 	};
 };
 
-/include/ "tps65217.dtsi"
+/include/ "../../tps65217.dtsi"
 
 &tps {
 
