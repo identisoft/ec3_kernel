@@ -569,6 +569,7 @@
 			};
 		};
 
+/***** Mods for EC3 - Comment out
 		target-module@56000000 {
 			compatible = "ti,sysc-omap4", "ti,sysc";
 			reg = <0x5600fe00 0x4>,
@@ -588,12 +589,14 @@
 			#address-cells = <1>;
 			#size-cells = <1>;
 			ranges = <0 0x56000000 0x1000000>;
-
+*****/
 			/*
 			 * Closed source PowerVR driver, no child device
 			 * binding or driver in mainline
 			 */
+/***** Mods for EC3 - Comment out
 		};
+*****/
 	};
 };
 
